@@ -1,0 +1,19 @@
+{
+  "id": "cmpl-79sjTrid0AVOHresiw04FrqzTpvTD",
+  "object": "text_completion",
+  "created": 1682589699,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\n这取决于你在访问时所使用的网络速度。如果你使用的是一个非常快的网络速度，那么可能要花费30元左右，而如果你使用的是一个慢的网络速度，那么可能会花费更多的费用。",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 32,
+    "completion_tokens": 162,
+    "total_tokens": 194
+  }
+}

@@ -1,4 +1,4 @@
-package com.hz.study.ai;
+package com.hz.study.ai.main;
 
 import cn.hutool.http.*;
 import cn.hutool.json.JSONObject;
@@ -8,16 +8,15 @@ import java.util.Map;
 
 public class ChatGptImage {
 
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "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";
 
 
     public static void main(String[] args) {
         Map<String,String> headers = new HashMap<String,String>();
         headers.put("Content-Type","application/json;charset=UTF-8");
-
         JSONObject json = new JSONObject();
         //搜索关键字
-        json.set("prompt","漂亮小姐姐");
+        json.set("prompt","给我画一匹马，并且在马上插上翅膀，后面还有一辆飞机");
         //生成图片数
         json.set("n",2);
         //生成图片大小
@@ -32,7 +31,6 @@ public class ChatGptImage {
                 .body(String.valueOf(json))
                 .timeout(5 * 60 * 1000)
                 .execute();
-
         System.out.println(response.body());
     }
 }

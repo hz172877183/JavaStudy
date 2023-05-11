@@ -1,4 +1,4 @@
-package com.hz.study.ai;
+package com.hz.study.ai.main;
 
 import cn.hutool.http.*;
 import cn.hutool.json.JSONObject;

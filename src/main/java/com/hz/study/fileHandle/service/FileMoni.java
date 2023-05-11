@@ -29,7 +29,7 @@ public class FileMoni implements CommandLineRunner {
 //    }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         try {
             String filepath = "G:\\ideaSpace\\JavaStudy\\file";
             FileAlterationObserver fileObserver = new FileAlterationObserver(new File(filepath));

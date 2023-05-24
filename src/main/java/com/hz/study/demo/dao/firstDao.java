@@ -1,4 +1,4 @@
-package com.hz.study.first.dao;
+package com.hz.study.demo.dao;
 
 public interface firstDao {
 

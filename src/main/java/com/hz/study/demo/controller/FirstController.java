@@ -1,6 +1,6 @@
-package com.hz.study.first.controller;
+package com.hz.study.demo.controller;
 
-import com.hz.study.first.service.FirstService;
+import com.hz.study.demo.service.FirstService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

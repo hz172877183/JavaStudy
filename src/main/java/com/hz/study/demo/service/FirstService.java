@@ -1,4 +1,4 @@
-package com.hz.study.first.service;
+package com.hz.study.demo.service;
 
 public interface FirstService {
 

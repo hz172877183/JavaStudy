@@ -1,8 +1,8 @@
-package com.hz.study.first.service.impl;
+package com.hz.study.demo.service.impl;
 
 import com.hz.study.fileHandle.service.FileMoni;
-import com.hz.study.first.dao.firstDao;
-import com.hz.study.first.service.FirstService;
+import com.hz.study.demo.dao.firstDao;
+import com.hz.study.demo.service.FirstService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
